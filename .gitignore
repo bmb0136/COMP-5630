@@ -1,0 +1,8 @@
+# Hide assignment pdfs
+*.pdf
+
+# nix build
+result
+
+# Jupyter
+.ipynb_checkpoints/
