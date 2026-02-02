@@ -22,6 +22,8 @@
                 pp: with pp; [
                   numpy
                   matplotlib
+                  pandas
+                  openpyxl
                   jupyter
                   ipympl
                 ]
