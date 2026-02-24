@@ -23,6 +23,7 @@
                   numpy
                   matplotlib
                   pandas
+                  scikit-learn
                   openpyxl
                   jupyter
                   ipympl
