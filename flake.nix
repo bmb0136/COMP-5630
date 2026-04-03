@@ -16,24 +16,8 @@
       perSystem =
         { pkgs, ... }:
         {
-          devShells.default = pkgs.mkShell {
-            packages = [
-              (pkgs.python3.withPackages (
-                pp: with pp; [
-                  numpy
-                  matplotlib
-                  pandas
-                  scikit-learn
-                  openpyxl
-                  jupyter
-                  ipympl
-                  datasets
-                  gensim
-                  tensorflow
-                ]
-              ))
-            ];
-          };
+          devShells.default = pkgs.callPackage ./shell.nix { };
+          devShells.cuda = pkgs.callPackage ./shell.nix { cudaSupport = true; };
         };
     };
 }
