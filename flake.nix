@@ -28,6 +28,8 @@
                   jupyter
                   ipympl
                   torch
+                  datasets
+                  gensim
                 ]
               ))
             ];
