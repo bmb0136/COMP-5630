@@ -27,9 +27,9 @@
                   openpyxl
                   jupyter
                   ipympl
-                  torch
                   datasets
                   gensim
+                  tensorflow
                 ]
               ))
             ];
