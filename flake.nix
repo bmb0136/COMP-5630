@@ -27,6 +27,7 @@
                   openpyxl
                   jupyter
                   ipympl
+                  torch
                 ]
               ))
             ];
